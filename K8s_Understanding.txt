@@ -1,0 +1,100 @@
+Kubernetes:
+----Contaioner management Tool---
+---- is an open sorce Orchestration System.
+k8s:>>> Short Name.
+i18n
+Kubernetes: It is the product developed by Google.
+------------------------------------------------
+1)Monolythic.
+2)Microsrvices.
+
+Example :
+1) Facebook 
+   a)Login Page.
+   b)News Feed.
+   c)Story Create.
+   d)Post-----Audio/Video/Photos
+   e)Friend Request
+   f)Block List
+   g)Facebook Add New User.
+
+Coding: Develped : War file create. 
+
+1) Scalability
+2) High Availability--->(24/7)
+3) Fault Tolerance----->(Kami ana:)
+
+-----Microservices----
+a)Login Page.
+   b)News Feed.          ----Project-----Database
+   c)Story Create.		 ----Project-----Database
+   d)Post-----Audio/Video/Photos ----Project-----Database
+   e)Friend Request 	----Project-----Database
+   f)Block List 		----Project-----Database
+   g)Facebook Add New User.----Project-----Database
+
+Container/Image:
+----------
+News Feed   : Image1---2000 Container  --Amit---
+Story Create: Image2---2000 Container  --Nitin---
+Post        : Image3---2000 Container  --Yadav---
+---This is the problem here.
+---We need to manage the container()
+---Who will mamage these containers.
+
+We can not controll the containers.
+
+-----Kubernetes------
+
+Container : Increase/Decrease--->>> Auto-Scalaing
+ScaleUp   : Increase 
+ScaleDown : Decrease
+
+Kubernetes or K8s
+------------------
+Note : Kubernetes does not maintain the container created
+       by the Docker Engine only.
+	   It support all type of containers.
+	   ---Container D
+	   ---Rocket
+Note : Kubernetes orchestration system and its compitator 
+       is Docker Swarm(Docker Inc)
+	   
+Kubernetes:
+1) K8s manages the containers.
+2) K8s Scalability provides containers.
+3) K8s High Availability.
+4) K8s Cluster(Group).
+
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers.	   
+	
+Services Available in Cloud for Kubernetes:
+--------------------------------------------
+	
+1) Google Cloud---GCP(Google Cloud Plateform)	
+   ---GKE->Google Kubernetes Engine
+2) Azure Cloud----Microsoft
+   ---AKS->Azure Kubernetes Service
+3) AWS(Amazon Web Services)
+   ---EKS->Elastic Kubernetes Service
+
+=====Local Windows====
+Minikube
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+
